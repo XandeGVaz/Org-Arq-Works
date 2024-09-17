@@ -167,7 +167,14 @@ printa_tesoura:
 	ret
 
 
-
+#Função que verifica a jogada e informa quem ganhou ou se houve empate
+#	Parâmetros:
+#		->a0: jogada feita pelo jogador
+#		->a1: jogada feita pela máquina
+#	Retorna (em a0):
+#		->0: compputador venceu
+#		->1: jogador venceu
+#		->2: houve empate
 verifica_jogada:
 	# Temporario recebe jogadas possiveis
     addi t1, zero, 1 ### temporario recebe valor 1
