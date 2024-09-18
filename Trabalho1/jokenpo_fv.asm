@@ -5,7 +5,7 @@
 
 	.data
 	.align 0
-titulo0: .asciz "###		Jogo `Pedra, Papel e Tesoura		  ###\n"
+titulo0: .asciz "###		Jogo  Pedra, Papel e Tesoura		  ###\n"
 titulo1: .asciz "###			INSIRA A JOGADA			  ###\n"
 titulo2: .asciz "###	PEDRA(1) 	PAPEL(2) 	TESOURA(3)        ###\n"
 titulo3: .asciz "###			DIGITE (4) PARA SAIR 		  ###\n"
