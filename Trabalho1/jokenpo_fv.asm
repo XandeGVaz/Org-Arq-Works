@@ -147,7 +147,7 @@ rand_int:
 	ecall
 
 	addi a0, zero, 0
-	addi a1, zero, 2            # numero maximo de geracao de inteiros aleatorios
+	addi a1, zero, 3            # numero maximo de geracao de inteiros aleatorios
 	addi a7, zero, 42
 	ecall
 	
